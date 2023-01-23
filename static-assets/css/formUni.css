@@ -1,0 +1,98 @@
+
+*{
+          padding: 0;
+          margin: 0;
+          box-sizing: 0;
+
+}
+
+
+
+.fo{
+
+          position: fixed;
+          display: flex ;
+          bottom: 0 ;
+
+          width: 100%;
+
+          background-color: grey;
+
+          height: 40px;
+
+          
+}
+
+.box1{
+
+          flex: 4;
+
+         
+}
+
+
+
+
+.box2{
+
+          flex: 0.5;
+
+          
+
+          align-items: flex-end;
+
+          padding: 10px;
+}
+
+
+main{
+
+          padding: 20px;
+}
+
+.text{
+         display: flex;
+
+        
+}
+
+.t1{
+         margin-right: 30px;
+}
+
+.t2p{
+          color: grey;
+
+          margin-left: 2%;
+}
+
+.grad{
+
+         display: flex;
+}
+
+.p ,.g{
+
+      margin-left: 40vh;
+}
+
+
+
+.forAll{
+      display: flex;
+
+     
+
+}
+
+.col{
+      flex: 1;
+}
+
+.re{
+
+      flex: 1;
+
+      margin-left: 20vh;
+}
+

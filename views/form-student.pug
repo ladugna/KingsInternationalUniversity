@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>univesity-Form</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js" integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+          <link rel="stylesheet" href="./css/formUni.css">
+
+          <script defer src="./js/regi.js"></script>
+
+          
+</head>
+<body>
+
+       <header>
+          <nav class="navbar navbar-expand-lg bg-danger">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="/"><h2 style="color: rgb(255, 255, 255) ;">King's International Univeristy</h2></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="/" style="color: rgb(255, 255, 255) ;">Home</a>
+                          
+                          <a  class="nav-link" href="/registration" style="color: rgb(255, 255, 255) ;">Register for a course</a>
+                         
+                         
+                         
+                        </div>
+                      </div>
+                    </div>
+
+                    <div  class="nav justify-content-end">
+                             <h4 style="color: rgb(255, 255, 255) ;">welcome,Gest</h4>
+                    </div></nav>
+       </header>
+                   
+
+                   
+          <main>
+          <form action="/registration" method="post">
+                <div class="mb-3">
+                        <label for="studentIdNumber" class="form-label">Student ID</label>
+                        <input type="text" class="form-control"name="stdentId" required>
+                </div>
+                <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" name="fullName" required>
+                </div>
+
+                <div class="mb-3">
+                        <label for="" class="form-label">Level Of Study</label>
+                        <select class="form-control" name="courseToRegister" id="courseToRegister"required>
+                                <option value="">select....</option>
+                                <option value="MPP">MPP</option>
+                                <option value="FPP">FPP</option>
+                                <option value="WAP">WAP</option>
+                        </select>
+
+                </div>
+
+                <button type="reset" class="btn btn-primary btn-lg">Rest</button>
+                <button type="submit" class="btn btn-secondary btn-lg">Register Student</button>
+</form>
+<div>
+
+            <div><h3>Course Registration Form</h3></div><hr>
+
+            <h4>student Information</h4>
+
+            <div>
+            <table id="tblAccounts"class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Student ID</th>
+                        <th scope="col">Full Name</th>
+                        <th scope="col">courseToRegister</th>
+                    </tr>
+                </thead>
+                <tbody>
+                - var i = 1;
+                for student in students
+                    tr
+                        td= i
+                        td= student.stdentId
+                        td= student.fullName
+                        td= student.courseToRegister
+                        - i++
+                </tbody>
+                </div>
+</main>
+<footer class="fo">
+<div class="box1">
+   <h4 style="color: rgb(255, 255, 255) ;">Samuel Mehari ::: CS472 WAP</h4>
+
+                             
+                    </div>
+
+
+
+                    <div class="box2">
+
+                      <h5 style="color: rgb(255, 255, 255) ;">&copy; Nov 2022 </h5>
+                            
+                    </div>
+                    </footer>
+                    </body>
+</html>

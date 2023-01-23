@@ -1,0 +1,100 @@
+
+*{
+          padding: 0;
+          margin: 0;
+          box-sizing: 0;
+
+}
+
+
+
+.fo{
+
+          position: fixed;
+          display: flex ;
+          bottom: 0 ;
+
+          width: 100%;
+
+          background-color: grey;
+
+          height: 40px;
+
+          
+}
+
+.box1{
+
+          flex: 4;
+
+          
+}
+
+
+.box2{
+
+          flex:0.5;
+
+         
+
+          align-items: flex-end;
+
+          padding: 10px;
+
+       
+}
+
+main{
+
+          padding: 20px; 
+
+}
+
+img{
+
+      
+
+          width: 120vh;
+}
+
+
+
+
+th ,table ,tr {
+
+          border: 1px solid black;
+}
+
+
+.below{
+
+display: flex;
+
+padding: 10px;
+
+
+}
+
+.boxp1{
+         flex: 1;
+
+        
+}
+
+.boxp2{
+
+          flex: 1;
+          padding-left: 5vh;
+
+          
+
+}
+
+
+.boxp3{
+
+          flex: 1;
+          padding-left: 10vh;
+
+}
+
